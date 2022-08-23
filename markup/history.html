@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../styles/history.css" />
+    <title>Upgrade</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navigation_wrap">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../assets/img/logo2.svg" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex gap-5">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">History</a>
+              </li>
+            </ul>
+            <div class="navbar-nav ms-auto">
+              <a href="../markup/profile.html"><button class="btn nav_btn me-5">Upgrade</button></a>
+              <img
+                class="img-fluid"
+                src="../assets/img/Profile Notif Calendar.svg"
+                alt="nav-image"
+              />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="use_cases">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row d-lg-flex justify-content-around cases_pading">
+            <div class="col-xl-5 p-3 column_border my-3">
+              <div class="row" onclick="handleClick('')">
+                <div class="col-2"><img src="../assets/img/resume.svg" alt="resume" /></div>
+                <div class="col-10">
+                  <h3 class="box_head">Resume headlines</h3>
+                  <p class="box_para">
+                    Create an attention-grabbing headline for <br />
+                    your resume or CV with just a few clicks.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 p-3 column_border my-3 gap-xl-5">
+              <div class="row" onclick="handleClick('')">
+                <div class="col-2"><img src="../assets/img/linkedin.svg" alt="linkedin" /></div>
+                <div class="col-10">
+                  <h3 class="box_head">LinkedIn headlines</h3>
+                  <p class="box_para">
+                    Create an attention-grabbing LinkedIn <br />
+                    Headline in seconds.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 p-3 column_border my-3">
+              <div class="row" onclick="handleClick('')">
+                <div class="col-2"><img src="../assets/img/resume_bullet.svg" alt="bullet" /></div>
+                <div class="col-10">
+                  <h3 class="box_head">Resume bullet points</h3>
+                  <p class="box_para">
+                    Instantly create powerful Resume Bullet Points <br />
+                    that will make employers take notice.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 p-3 column_border my-3">
+              <div class="row" onclick="handleClick('')">
+                <div class="col-2"><img src="../assets/img/linkedin.svg" alt="resume" /></div>
+                <div class="col-10">
+                  <h3 class="box_head">LinkedIn Bio</h3>
+                  <p class="box_para">
+                    Instantly create a powerful LinkedIn Bio that <br />
+                    will make employers take notice.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 p-3 column_border my-3">
+              <div class="row" onclick="handleClick('')">
+                <div class="col-2">
+                  <img src="../assets/img/resume_summary.svg" alt="summary" />
+                </div>
+                <div class="col-10">
+                  <h3 class="box_head">Resume summary</h3>
+                  <p class="box_para">
+                    Instantly create a powerful resume summary <br />
+                    that will make employers take notice.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 p-3 column_border my-3">
+              <div class="row" onclick="handleClick('')">
+                <div class="col-2"><img src="../assets/img/keyword.svg" alt="keyword" /></div>
+                <div class="col-10">
+                  <h3 class="box_head">Keyword suggestions</h3>
+                  <p class="box_para">
+                    Optimize your resume with relevent keyword <br />
+                    suggestions,
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 p-3 column_border my-3">
+              <div class="row" onclick="handleClick('')">
+                <div class="col-2"><img src="../assets/img/explore.svg" alt="explore" /></div>
+                <div class="col-10">
+                  <h3 class="box_head">Resume skills explorer</h3>
+                  <p class="box_para">
+                    The AI Skills Explorer helps you discover skills <br />
+                    through relevant suggestions.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 p-3 column_border my-3">
+              <div class="row" onclick="handleClick('')">
+                <div class="col-2"><img src="../assets/img/cover.svg" alt="resume" /></div>
+                <div class="col-10">
+                  <h3 class="box_head">Cover letter</h3>
+                  <p class="box_para">
+                    Instantly create a powerful Cover Letter that <br />
+                    will make employers take notice.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="bg_footer">
+      <div class="d-flex justify-content-center footer_tp">
+        <img src="../assets/img/logo2.svg" alt="" />
+      </div>
+      <ul class="nav justify-content-center gap-5 footer_list">
+        <li class="nav-item">Product</li>
+        <li class="nav-item">Features</li>
+        <li class="nav-item">Pricing</li>
+        <li class="nav-item">Resources</li>
+        <li class="nav-item">Careers</li>
+        <li class="nav-item">Help</li>
+        <li class="nav-item">Privacy</li>
+      </ul>
+      <div class="d-flex justify-content-center footer_copy">
+        <h3>© 2022 ResumeAssistant. All rights reserved.</h3>
+      </div>
+    </footer>
+     <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modalTitle"></div>
+        <div class="resume_form">
+          <div class="form_item">
+            <div class="form_heading">
+              <h1>Resume Headlines</h1>
+              <span>Write headlines for your resume or CV.</span>
+            </div>
+            <div class="container">
+              <form action="#">
+                <div class="user_details">
+                  <div class="box_input">
+                    <span class="details">Professional Title/Role*</span>
+                    <input type="text" placeholder="e.g. project manager" required />
+                    <p>0/100</p>
+                  </div>
+                  <div class="box_input">
+                    <span class="details">Skills Highlight</span>
+                    <input type="text" placeholder="e.g. communication, problem solving" required />
+                    <!-- <textarea style="width: 380px; height: 157px">Enter text here...</textarea> -->
+                    <p>0/200</p>
+                  </div>
+                  <!-- dropdown start  -->
+                  <div class="dropdown">
+                    <button class="dropbtn">
+                      1 variant <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">1 variant </a>
+                      <a href="#">2 variant </a>
+                      <a href="#">3 variant </a>
+                    </div>
+                  </div>
+                  <!-- dropdown end  -->
+                  <div class="box_input btn">
+                    <input type="button" value="Write for me" />
+                  </div>
+                </div>
+                <div class="box_bottom">
+                  <p>
+                    Strange results? Just regenerate or try <br />
+                    different keywords!
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="form_box">
+            <img src="../assets/img/right-aroow.svg" alt=" back arrow" />
+            <div class="box_1">
+              <p>
+                Project Manager with experience in overseeing all stages of the project lifecycle.
+                Skilled in risk management and change management
+              </p>
+            </div>
+            <div class="box_1">
+              <p>
+                Project Manager with experience in overseeing all stages of the project lifecycle.
+                Skilled in risk management and change management
+              </p>
+            </div>
+            <div class="box_1">
+              <p>
+                Project Manager with experience in overseeing all stages of the project lifecycle.
+                Skilled in risk management and change management
+              </p>
+            </div>
+            <div class="form_bottom">
+              <div class="form_left">11 words / 44 characters</div>
+              <div class="form_right">
+                <img src="../assets/img/like.svg" alt="like">
+                <img src="../assets/img/dislike.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- The modal end  -->
+    <!-- The modal popup start  -->
+    <div id="myPopup" class="popup">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modalPopup"></div>
+        <div class="resume_form">
+          <div class="form_item">
+            <div class="form_heading">
+              <h1>Resume Headlines</h1>
+              <span>Write headlines for your resume or CV.</span>
+            </div>
+            <div class="container">
+              <form action="#">
+                <div class="user_details">
+                  <div class="box_input">
+                    <span class="details">Professional Title/Role*</span>
+                    <input type="text" placeholder="e.g. project manager" required />
+                    <p>0/100</p>
+                  </div>
+                  <div class="box_input">
+                    <span class="details">Skills Highlight</span>
+                    <input type="text" placeholder="e.g. communication, problem solving" required />
+                    <!-- <textarea style="width: 380px; height: 157px">Enter text here...</textarea> -->
+                    <p>0/200</p>
+                  </div>
+                  <!-- dropdown start  -->
+                  <div class="dropdown">
+                    <button class="dropbtn">
+                      1 variant <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">1 variant </a>
+                      <a href="#">2 variant </a>
+                      <a href="#">3 variant </a>
+                    </div>
+                  </div>
+                  <!-- dropdown end  -->
+                  <div class="box_input btn">
+                    <input type="button" value="Write for me" />
+                  </div>
+                </div>
+                <div class="box_bottom">
+                  <p>
+                    Strange results? Just regenerate or try <br />
+                    different keywords!
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+          <script src="../javascript/script.js"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      let nav = document.querySelector(".navigation_wrap");
+      window.onscroll = function () {
+        if (document.documentElement.scrollTop > 10) {
+          nav.classList.add("scroll-on");
+        } else {
+          nav.classList.remove("scroll-on");
+        }
+      };
+    </script>
+  </body>
+</html>

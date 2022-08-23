@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../styles/profile.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- navbar start here  -->
+    <header>
+      <nav class="navbar navbar-expand-lg navigation_wrap">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../assets/img/logo2.svg" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex gap-5">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">History</a>
+              </li>
+            </ul>
+            <div class="navbar-nav ms-auto">
+              <a href="../markup/profile.html"><button class="btn nav_btn me-5">Upgrade</button></a>
+              <img
+                class="img-fluid"
+                src="../assets/img/Profile Notif Calendar.svg"
+                alt="nav-image"
+              />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- navbar end here  -->
+    <section id="profile_section">
+      <div class="container-fluid">
+        <div class="container">
+          <h1 class="text-center top_text">Profile</h1>
+          <p class="text-center top_para">Manage your personal profile settings.</p>
+          <div class="form_wrap">
+            <form action="#" class="row g-2 form_body">
+              <div class="col-md-6">
+                <label for="fname" class="form-label">First name</label>
+                <input
+                  type="text"
+                  class="form-control input_form"
+                  id="inputFirstName"
+                  placeholder="Your first name"
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="lname" class="form-label">Last name</label>
+                <input
+                  type="text"
+                  class="form-control input_form"
+                  id="inputPassword4"
+                  placeholder="Your last name"
+                />
+              </div>
+              <div class="col-md-6 pt-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control input_form"
+                  id="inputFirstName"
+                  placeholder="youremail@mail.com"
+                />
+              </div>
+              <div class="col-md-6 form_btn">
+                <input
+                  type="button"
+                  class="form-control input_form btn_border"
+                  id="inputPassword4"
+                  value="Change Account Email"
+                />
+              </div>
+              <div class="col-md-6 pt-3">
+                <label for="fname" class="form-label">Password</label>
+                <input
+                  type="password"
+                  class="form-control input_form"
+                  id="inputFirstName"
+                  placeholder="******"
+                />
+              </div>
+              <div class="col-md-6 form_btn">
+                <input
+                  type="button"
+                  class="form-control input_form btn_border"
+                  id="inputPassword4"
+                  value="Change  Password"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      let nav = document.querySelector(".navigation_wrap");
+      window.onscroll = function () {
+        if (document.documentElement.scrollTop > 10) {
+          nav.classList.add("scroll-on");
+        } else {
+          nav.classList.remove("scroll-on");
+        }
+      };
+    </script>
+  </body>
+</html>

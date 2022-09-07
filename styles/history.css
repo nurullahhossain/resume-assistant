@@ -38,7 +38,7 @@ html {
   position: fixed;
   width: 100%;
   left: 0;
-  z-index: 1000;
+  z-index: 0;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
@@ -262,6 +262,9 @@ html {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+}
+.dropdown-content > center {
+  text-align: center;
 }
 
 .dropdown-content a:hover {
@@ -577,13 +580,14 @@ html {
   height: 871px;
   background: #f7f8f9;
   margin: 0 auto;
-  margin-top: 80px;
+  /* margin-top: 80px; */
   border-radius: 6px;
   display: grid;
   grid-template-columns: 500px 580px;
   justify-content: center;
   gap: 20px;
   z-index: 1000;
+  padding-bottom: 50px;
 }
 .left_side {
   margin-left: 40px;

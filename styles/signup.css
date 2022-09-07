@@ -1,0 +1,137 @@
+/* Google Fonts - Mulish */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4070f4;
+  column-gap: 30px;
+}
+.form {
+  position: absolute;
+  max-width: 572px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 6px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+}
+.media__options {
+  width: 432.93px;
+  height: 59.15px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  cursor: pointer;
+}
+.media__options a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-left: 16px;
+}
+.media__options span {
+  margin-left: 19px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.form__box h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000000;
+  padding-bottom: 24px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 19px;
+}
+.logo img {
+  width: 305px;
+}
+.login {
+  padding-top: 53px;
+  padding-bottom: 30px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: #2a2f32;
+  text-align: center;
+}
+.color {
+  font-weight: 700;
+  font-size: 26px;
+  font-family: "Mulish";
+  color: #1877f2;
+  cursor: pointer;
+}
+.social_media {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+.google-logo {
+  padding: 5px 30px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 3.16105px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.facebook-logo {
+  padding: 5px 30px;
+  background: #4267b2;
+  border-radius: 3.16105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.apple-logo {
+  padding: 5px 30px;
+  background: #2a2f32;
+  border-radius: 3.16105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.create-btn {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.create-btn button {
+  background: linear-gradient(180deg, #1890ff 0%, #1f86ff 100%);
+  border-radius: 4px;
+  padding: 21px 45px;
+  font-family: "Mulish";
+  font-weight: 700;
+  font-size: 20.6811px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
